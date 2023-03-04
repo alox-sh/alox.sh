@@ -3,7 +3,8 @@ title: Get Started
 layout: home
 ---
 
-Disclaimer: This is not a JAFR [^1]
+{: .warning }
+This is not a JAFR [^1]
 
 Alox is a collection of helper functions, decorators and other utilities aiming to *(further)* ease building (particularly Rest API) servers with Go's `http` stdlib.
 

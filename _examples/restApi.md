@@ -3,4 +3,7 @@ title: Rest API
 layout: post
 ---
 
-Source code: [examples/restApi](https://github.com/alox-sh/alox/tree/master/examples/restApi)
+<dl>
+  <dt>Source code</dt>
+  <dd>[examples/restApi](https://github.com/alox-sh/alox/tree/master/examples/restApi)</dd>
+</dl>

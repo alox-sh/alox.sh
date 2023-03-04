@@ -9,4 +9,4 @@ _site/
 .bundle/
 vendor/
 
-tmp/*
+tmp/

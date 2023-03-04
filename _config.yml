@@ -4,7 +4,7 @@ description: Documentation of alox.sh Go package
 theme: just-the-docs
 
 url: https://alox.sh
-baseurl: ''
+baseurl: https://alox.sh
 port: 4002
 
 exclude:

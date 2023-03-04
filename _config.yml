@@ -1,0 +1,30 @@
+
+title: alox.sh
+description: Documentation of alox.sh Go package
+theme: just-the-docs
+
+url: https://alox.sh
+baseurl: ''
+port: 4002
+
+exclude:
+  - tmp
+
+collections:
+  api:
+    output: true
+    order:
+      - server.md
+      - response.md
+  examples:
+    output: true
+
+just_the_docs:
+  collections:
+    api:
+      name: API
+    examples:
+      name: Examples
+
+# aux_links:
+#   Template Repository: https://github.com/just-the-docs/just-the-docs-template

@@ -2,6 +2,8 @@
 title: alox.sh
 description: Documentation of alox.sh Go package
 theme: just-the-docs
+logo: /assets/logo-transparent-bw-usd.png
+# logo: /assets/logo-transparent-bw.png
 
 url: https://alox.sh
 port: 4002
@@ -10,36 +12,23 @@ exclude:
   - tmp
 
 collections:
-  api:
-    output: true
-    order:
-      - server.md
-      - response.md
   examples:
     output: true
 
 just_the_docs:
   collections:
-    api:
-      name: API
     examples:
       name: Examples
 
 callouts:
-  highlight:
-    color: yellow
-  important:
-    title: Important
+  info:
+    title: Info
     color: blue
-  new:
-    title: New
-    color: green
-  note:
-    title: Note
-    color: purple
   warning:
     title: Warning
     color: red
 
+footer_content: "Distributed under an <a href=\"https://github.com/alox-sh/alox/tree/master/LICENSE.txt\">MIT license</a>"
+
 # aux_links:
-#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#   GitHub: https://github.com/alox-sh/alox
